@@ -12,6 +12,7 @@
 		48C1097D193F47CF0029884E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C1097B193F47CF0029884E /* Main.storyboard */; };
 		48C1097F193F47CF0029884E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C1097E193F47CF0029884E /* Images.xcassets */; };
 		48C1098B193F47CF0029884E /* GesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1098A193F47CF0029884E /* GesturesTests.swift */; };
+		48C10995193F48270029884E /* TSFH-TG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C10994193F48270029884E /* TSFH-TG.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		48C10984193F47CF0029884E /* GesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C10989193F47CF0029884E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48C1098A193F47CF0029884E /* GesturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesTests.swift; sourceTree = "<group>"; };
+		48C10994193F48270029884E /* TSFH-TG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TSFH-TG.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				48C10977193F47CF0029884E /* AppDelegate.swift */,
 				48C10979193F47CF0029884E /* ViewController.swift */,
+				48C10994193F48270029884E /* TSFH-TG.jpg */,
 				48C1097B193F47CF0029884E /* Main.storyboard */,
 				48C1097E193F47CF0029884E /* Images.xcassets */,
 				48C10975193F47CF0029884E /* Supporting Files */,
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C1097D193F47CF0029884E /* Main.storyboard in Resources */,
+				48C10995193F48270029884E /* TSFH-TG.jpg in Resources */,
 				48C1097F193F47CF0029884E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Gestures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -339,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Gestures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
